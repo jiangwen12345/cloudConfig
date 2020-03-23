@@ -1,9 +1,6 @@
-spring:
-  application:
-    name: testEurekaClient
-  datasource:
-    driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/mydatabase?useUnicode=true&characterEncoding=utf-8
-    username: root
-    password: root
-    type: com.zaxxer.hikari.HikariDataSource
+data:
+  userInfo:
+    name: 江文
+    age：25
+    height: 172cm
+    weight: 65kg
