@@ -1,7 +1,5 @@
 zuul:
   routes:
     test-routes:
-      path: /test-zuul/**
-      serviceid: testEurekaClient
       path: /pro-zuul/**
       serviceid: testEurekaClient
